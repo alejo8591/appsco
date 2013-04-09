@@ -1,4 +1,7 @@
 Blog::Application.routes.draw do
+  resources :posts
+
+
   get "index/index"
 
   # The priority is based upon order of creation:
